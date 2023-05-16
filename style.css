@@ -63,23 +63,56 @@ aside {
     color: #B6CCDA;
 }
 
-.fa-brands:hover {
-    color: #00acee ;
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+}
+
+.fa-linkedin-in:hover {
+    color: #0e76a8;
 }
 
 /* navigation */
 
 .navigation__container {
     display: flex;
-    justify-content: space-around;
 }
 
 .navigation__header {
     padding: 3.5rem 4.375rem 5.313rem 7.438rem;
     display: flex;
+    gap: 5.625rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.688rem;
 }
 
+.navigation__header>li {
+    list-style-type: none;
+}
 
+.navigation__logo {
+    padding: 2.875rem 0 0 4.188rem;
+}
+
+.navigation__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navigation__tab {
+    display: flex;
+    gap: 1.25rem;
+    padding: 3.875rem 4.375rem 5.688rem 13.813rem;
+}
+
+.navigation__vertical {
+    border-left: #FFFFFF solid 0.063rem;
+    height: 1.375rem;
+}
 
 /* greetings */
 
