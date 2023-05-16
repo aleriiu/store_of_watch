@@ -152,7 +152,7 @@ aside {
 }
 
 .greetings__bg-iWatch {
-    padding-right: 1.063rem;
+    padding-right: 5.9rem;
 }
 
 .greetings__btn {
@@ -167,4 +167,72 @@ aside {
 .greetings__btn:hover {
     background: #FFFFFF;
     color: #B6CCDA;
+}
+
+/* catalog */
+
+.catalog__container {
+    display: flex;
+    gap: 4.688rem;
+    padding-top: 2.75rem;
+}
+
+.catalog__iwatch-black {
+    padding-left: 49.938rem;
+    position: relative;
+}
+
+.catalog__iwatch-black > img {
+    z-index: 2;
+    position: relative;
+}
+
+.rectangle-black {
+    background: #43455899;
+    width: 8.188rem;
+    height: 4.375rem;
+    border-radius: 0.625rem;
+    position: absolute;
+    top: 31px;
+    right: -20px;
+   
+}
+
+.catalog__iwatch-green {
+    position: relative;
+}
+
+.catalog__iwatch-green > img {
+    z-index: 2;
+    position: relative;
+}
+
+.rectangle-green {
+    background: #6ADDCC99;
+    width: 8.188rem;
+    height: 4.375rem;
+    border-radius: 0.625rem;
+    position: absolute;
+    top: 31px;
+    right: -20px;
+}
+
+.catalog__iwatch-pink {
+    position: relative;
+    margin-right: 6.063rem;
+}
+
+.catalog__iwatch-pink > img {
+    z-index: 2;
+    position: relative;
+}
+
+.rectangle-pink {
+    background: #F9CDC499;
+    width: 8.188rem;
+    height: 4.375rem;
+    border-radius: 0.625rem;
+    position: absolute;
+    top: 31px;
+    right: -20px;
 }
