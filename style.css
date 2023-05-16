@@ -103,6 +103,18 @@ aside {
     text-decoration: none;
 }
 
+.navigation__link::after {
+    display: block;
+    content: '';
+    border-bottom: solid 1px #FFFFFF;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+.navigation__link:hover:after {
+    transform: scaleX(1);
+}
+
 .navigation__tab {
     display: flex;
     gap: 1.25rem;
@@ -116,12 +128,17 @@ aside {
 
 /* greetings */
 
+.greetings {
+    display: flex;
+}
+
 .greetings__header {
     font-size: 4rem;
     font-weight: 400;
     line-height: 5.375rem;
     color: #FFFFFF;
     letter-spacing: 0.125rem;
+    padding: 5.875rem 0 5.125rem 4.188rem;
 }
 
 .greetings__header>span {
@@ -132,4 +149,22 @@ aside {
     border: 0.188rem solid #FFFFFF;
     background: none;
     border-radius: 6.25rem;
+}
+
+.greetings__bg-iWatch {
+    padding-right: 1.063rem;
+}
+
+.greetings__btn {
+    padding: 1.063rem 4.563rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+    color: #FFFFFF;
+    margin-left: 4.188rem;
+}
+
+.greetings__btn:hover {
+    background: #FFFFFF;
+    color: #B6CCDA;
 }
