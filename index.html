@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/8f3d135e97.js" crossorigin="anonymous"></script>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
@@ -38,17 +38,21 @@
                     <div class="navigation__logo">
                         <img src="./images/Logo.png" alt="logo apple">
                     </div>
+
                     <ul class="navigation__header">
                         <li> <a class="navigation__link" href="#">Mac</a> </li>
                         <li> <a class="navigation__link" href="#">iPhone</a></li>
                         <li> <a class="navigation__link" href="#">iPad</a> </li>
-                        <li> <a class="navigation__link navigation__link-active" href="#">iWatch</a></li>
+                        <li><a class="navigation__link navigation__link-active" href="#">iWatch</a>
+                        </li>
                         <li> <a class="navigation__link" href="#">Support</a></li>
                     </ul>
                     <div class="navigation__tab">
                         <div><img src="./images/search.png" alt="seach"></div>
                         <div class="navigation__vertical"></div>
-                        <div><img src="./images/shopping-bag.png" alt="cart"></div>
+                        <button class="navigation__cart-btn">
+                            <img src="./images/shopping-bag.png" alt="cart">
+                        </button>
                     </div>
                 </div>
             </section>
@@ -60,9 +64,15 @@
                     <button class="greetings__btn" type="submit">Bye Now</button>
                 </div>
                 <div class="greetings__bg-iWatch">
-                    <img src="./images/watch-blue.png" alt="iWatch-blue-color">
+                    <img id="imgBlue" src="./images/watch-blue.png" alt="iWatch-blue-color">
+                    <div class="greetings__btn_iWatch">
+                        <button type="submit" class="iWatch-btn_black"></button>
+                        <button type="submit" class="iWatch-btn_blue"></button>
+                        <button type="submit" class="iWatch-btn_green"></button>
+                        <button type="submit" class="iWatch-btn_pink"></button>
+                    </div>
                 </div>
-                <div></div>
+
             </section>
             <section class="catalog">
                 <button></button>
@@ -83,6 +93,7 @@
             </section>
         </div>
     </main>
+
 </body>
 
 </html>

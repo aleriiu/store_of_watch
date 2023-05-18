@@ -126,6 +126,17 @@ aside {
     height: 1.375rem;
 }
 
+.navigation__cart-btn {
+    background: inherit;
+    border: inherit;
+    cursor: pointer;
+    position: relative;
+}
+
+.navigation__cart-btn:hover {
+    transform: scale(1.1);
+}
+
 /* greetings */
 
 .greetings {
@@ -167,6 +178,42 @@ aside {
 .greetings__btn:hover {
     background: #FFFFFF;
     color: #B6CCDA;
+}
+
+.greetings__bg-iWatch {
+    display: inline-block;
+}
+
+.iWatch-btn_black {
+    background: #404354;
+    border: 0.063rem solid #FFFFFF;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+}
+
+.iWatch-btn_blue {
+    background: #ABC6D6;
+    width: 1.875rem;
+    height: 1.875rem;
+    border: 0.188rem solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.iWatch-btn_green {
+    background: #58D7C4;
+    border: 0.063rem solid #FFFFFF;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+}
+
+.iWatch-btn_pink {
+    background: #F2CEC6;
+    border: 0.063rem solid #FFFFFF;
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
 }
 
 /* catalog */
