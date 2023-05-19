@@ -216,16 +216,49 @@ aside {
     border-radius: 50%;
 }
 
+
 /* catalog */
+
+.catalog {
+    display: flex;
+}
 
 .catalog__container {
     display: flex;
     gap: 4.688rem;
     padding-top: 2.75rem;
+    padding-left: 40.938rem;
+}
+
+.swiper-button {
+    display: flex;
+    align-items: center;
+    padding-left: 4.188rem;
+    padding-top: 8.188rem;
+}
+
+.swiper-button-prev {
+    background: inherit;
+    border: inherit;
+    cursor: pointer;
+    padding-right: 1rem;
+}
+
+.swiper-button-next {
+    background: inherit;
+    border: inherit;
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+.swiper-number {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #FFFFFF;
 }
 
 .catalog__iwatch-black {
-    padding-left: 49.938rem;
+    
     position: relative;
 }
 
