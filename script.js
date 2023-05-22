@@ -6,7 +6,19 @@ let elem = document.querySelector('.greetings__container');
 
 let watch = elem.querySelector('.greetings__btn');
 
+let cart = document.querySelector('.cart');
+console.log(cart);
+
 watch.addEventListener('click', event => {
+
+    let cartNum = cart.innerHTML;
+
+    if (+cartNum <= 1) {
+        cart.innerHTML++;
+
+        console.log(cartNum);
+    }
+
     event.target.style.background = 'linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1)';
     event.target.style.color = '#FFFFFF';
 })
@@ -106,7 +118,6 @@ let btnPrev = swiper.querySelector('.swiper-button-prev');
 
 let images = catalog.querySelectorAll('.catalog__item');
 
-console.log(images);
 
 btnPrev.addEventListener('click', (event) => {
     console.log(event.type);
